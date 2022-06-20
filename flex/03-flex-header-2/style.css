@@ -6,12 +6,18 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+ 
+  
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  
+ 
 }
 
 .profile-image {
@@ -45,4 +51,18 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  
+
+.left-side {
+  display: flex;
+  justify-content: start;
+  
+}
+
+.right-side {
+  display: flex;
+  justify-content: end;
+ 
 }
