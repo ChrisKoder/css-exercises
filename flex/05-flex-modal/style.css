@@ -21,19 +21,27 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  align-items: flex-start;
+  align-items: ;
   padding: 5px;
+  justify-content: center;
 }
 
 .modal>*:first-child {
   align-self: stretch;
 }
 
+
+.header {
+  font-weight: bold;
+  font-size: large;
+}
+
 .header-container {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-
+  gap: 5px;
+  padding: 10px;
 }
 
 .icon {
@@ -61,6 +69,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  margin-left: auto;
+  gap: 5px;
+  
 }
 
 button {
